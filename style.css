@@ -7,6 +7,7 @@ body {
 }
 
 h1 {
+    font-family: Bontang;
     font-size: 24pt; /* Larger font size for H1 */
     color: #336699; /* Blue color for H1 */
 }
