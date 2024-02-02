@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 12pt;
+    background-color: #f0f0f0; /* Background color other than white */
+    color: #333; /* Foreground color other than black */
+    margin: 20px;
+}
+
+h1 {
+    font-size: 24pt; /* Larger font size for H1 */
+    color: #336699; /* Blue color for H1 */
+}
+
+h2 {
+    font-size: 20pt; /* Slightly smaller font size for H2 */
+    color: #555; /* Dark gray color for H2 */
+}
+
+p {
+    font-size: 14pt; /* Font size for paragraphs */
+    color: #666; /* Color for paragraphs */
+    line-height: 1.5;
+}
+
+a {
+    color: #009688;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited {
+    color: #660066; /* Purple for visited links */
+}
+
+a:hover {
+    color: #ff3300; /* Red for hover effect */
+}
+
+a:active {
+    color: #003366; /* Dark blue for active state */
+}
+
+/* CSS Table Layout */
+.main-container {
+    display: table;
+    width: 100%;
+}
+
+.lab-instructions {
+    display: table-row;
+}
+
+.lab-instructions h2, .lab-instructions p {
+    display: table-cell;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
