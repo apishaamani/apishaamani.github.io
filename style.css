@@ -51,7 +51,7 @@ a:active {
     display: table-row;
 }
 
-.text h2, .text p {
+.links h2, .links p {
     display: table-cell;
     padding: 10px;
     border: 1px solid #ccc;
