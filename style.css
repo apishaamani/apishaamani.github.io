@@ -47,11 +47,11 @@ a:active {
     width: 100%;
 }
 
-.lab-instructions {
+.links {
     display: table-row;
 }
 
-.lab-instructions h2, .lab-instructions p {
+.text h2, .text p {
     display: table-cell;
     padding: 10px;
     border: 1px solid #ccc;
