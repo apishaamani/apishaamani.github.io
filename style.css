@@ -1,18 +1,19 @@
 body {
     font-family: Arial, sans-serif;
-    font-size: 16pt;
+    font-size: 12pt;
     background-color: #f0f0f0; /* Background color other than white */
     color: #333; /* Foreground color other than black */
     margin: 20px;
 }
 
 h1 {
-    font-family: Bontang;
+    font-family: Bakso Sapi;
     font-size: 24pt; /* Larger font size for H1 */
-    color: #336699; /* Blue color for H1 */
+    color: #e291c0; /* Blue color for H1 */
 }
 
 h2 {
+    font-family: Nugo Sans;
     font-size: 20pt; /* Slightly smaller font size for H2 */
     color: #555; /* Dark gray color for H2 */
 }
