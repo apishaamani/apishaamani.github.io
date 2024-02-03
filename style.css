@@ -46,6 +46,16 @@ a:active {
     display: table;
     width: 100%;
 }
+.text {
+    display: table-row;
+}
+
+.text h2, .text p {
+    display: table-cell;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
 
 .links {
     display: table-row;
