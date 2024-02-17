@@ -9,7 +9,7 @@ function promptForName() {
 // Function to enlarge the clicked image
 function enlargeImage() {
     var image = document.getElementById("profile-image");
-    image.style.width = "200px"; // Change this value to your desired enlargement
+    image.style.width = "500px"; // Change this value to your desired enlargement
 }
 
 // Function to handle onmouseover event for navigation items
