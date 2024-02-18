@@ -12,23 +12,30 @@
 <body>
     <header>
         <h1>Apishaa Manisekaran</h1>
-    </header>
-    <section>  
-        <!-- Navigation menu -->
-        <nav id="main-menu">
+
+        <nav class="main-menu">
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
+    </header>
+    <section>
+        <!-- a. Prompt for User Name -->
+    <button onclick="promptForName()">Enter Your Name</button>
+    <p id="welcome-message">Welcome!</p>
+
+    </section>
     
+    <section>  
+        <!-- Navigation menu -->
+
         <!-- Clickable image -->
-        <img id="profile-image" src="apishaa.JPG" alt="Your Image" onclick="enlargeImage()"width= 300px>
+        <img id="profile-image" src="apishaa.JPG" alt="Your Image" onclick="enlargeImage() "width= 300px>
     
         <!-- Output for user's name -->
         <div id="output"></div>
-        </section>  
 
     <section>
         <h2>Education</h2>
