@@ -30,3 +30,9 @@ function mOut(element) {
     some_tag.innerHTML = "Hello! I'm Apishaa, who are you?";
     some_tag.style.color = "orange";
 }
+
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+    }
