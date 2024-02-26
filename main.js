@@ -21,3 +21,12 @@ function onNavMouseOver(element) {
 function onNavMouseOut(element) {
     element.style.color = "black"; // Change the color or add your desired onmouseout effect
 }
+
+function mOver(some_tag) {
+    some_tag.innerHTML = "Thank You";
+    some_tag.style.color = "blue";
+    }
+function mOut(element) {
+    some_tag.innerHTML = "Hello! I'm Apishaa, who are you?";
+    some_tag.style.color = "orange";
+}
