@@ -23,11 +23,11 @@ function onNavMouseOut(element) {
 }
 
 function mOver(some_tag) {
-    some_tag.innerHTML = "Thank You";
+    some_tag.innerHTML = "Welcome!";
     some_tag.style.color = "blue";
     }
 function mOut(element) {
-    some_tag.innerHTML = "Hello! I'm Apishaa, who are you?";
+    some_tag.innerHTML = "Hello!";
     some_tag.style.color = "orange";
 }
 
