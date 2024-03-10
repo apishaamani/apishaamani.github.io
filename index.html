@@ -104,6 +104,75 @@
 
             <p>Check out my e-commerce website.</p>
         </div>
+
+        <form>
+            <div class="container">
+                <h2>Contact Me</h2>
+                <form id="feedbackForm">
+                  <label for="name">Name:</label>
+                  <input type="text" id="name" name="name" required>
+                  
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email" required>
+                  
+                  <label for="inquiryType">Inquiry Type:</label>
+                  <select id="inquiryType" name="inquiryType">
+                    <option value="employment">Employment</option>
+                    <option value="freelance">Freelance Project</option>
+                    <option value="general">General Inquiry</option>
+                  </select>
+                  
+                  <label>Skills Interested In:</label>
+                  <div>
+                    <input type="checkbox" id="dataAnalysis" name="skills" value="Data Analysis">
+                    <label for="dataAnalysis">Data Analysis</label>
+                  </div>
+                  <div>
+                    <input type="checkbox" id="projectManagement" name="skills" value="Project Management">
+                    <label for="projectManagement">Project Management</label>
+                  </div>
+                  <div>
+                    <input type="checkbox" id="dataVisualization" name="skills" value="Data Visualization">
+                    <label for="dataVisualization">Data Visualization</label>
+                  </div>
+                  
+                  <label for="experience">Years of Experience:</label>
+                  <input type="number" id="experience" name="experience" min="0" max="50">
+                  
+                  <label>Preferred Contact Method:</label>
+                  <input type="radio" id="contactEmail" name="contactMethod" value="Email" checked>
+                  <label for="contactEmail">Email</label>
+                  <input type="radio" id="contactPhone" name="contactMethod" value="Phone">
+                  <label for="contactPhone">Phone</label>
+                  
+                  <label for="message">Message:</label>
+                  <textarea id="message" name="message" rows="4"></textarea>
+                  
+                  <button type="button" id="submitBtn">Submit</button>
+                  <button type="reset">Clear</button>
+                </form>
+              </div>
+              
+        </body>
+        </html>
+            <p> select element
+                <select name="cars">
+                    <option value="volvo">Volvo</option>
+                    <option value="benz">Mercedes-Benz</option>
+                    <option value="honda">Honda</option>
+                    <option value="volkswagen">Volkswagen</option>
+                </select>
+                <br>
+
+                <textarea name="message" rows="10" cols="30">
+                    The cat was playing in the garden.
+                </textarea>
+            </p>
+        </form>
+
+
+
+
         <br>
         <hr>
         <br>
