@@ -106,51 +106,90 @@
         </div>
 
         <form>
-            <div class="container">
-                <h2>Contact Me</h2>
+            <div class="containerForm">
+                    <!-- form title -->
+                    <h2>Contact Me</h2>
+
                 <form id="feedbackForm">
+
+                    <!-- name input -->
                   <label for="name">Name:</label>
                   <input type="text" id="name" name="name" required>
-                  
+                  <br>
+
+
+                    <!-- email input -->
                   <label for="email">Email:</label>
                   <input type="email" id="email" name="email" required>
-                  
+                  <br>
+
+
+                    <!-- dropdown for inquiry type -->
                   <label for="inquiryType">Inquiry Type:</label>
                   <select id="inquiryType" name="inquiryType">
-                    <option value="employment">Employment</option>
+
+
+                   <!-- dropdown options -->
+                   <option value="employment">Employment</option>
                     <option value="freelance">Freelance Project</option>
                     <option value="general">General Inquiry</option>
                   </select>
-                  
+                  <br>
+
+                 <!-- checkbox question -->
+
                   <label>Skills Interested In:</label>
                   <div>
+
+                     <!-- checkbox options -->
                     <input type="checkbox" id="dataAnalysis" name="skills" value="Data Analysis">
-                    <label for="dataAnalysis">Data Analysis</label>
+                    <label for="businessAnalysis">Business Analysis</label>
                   </div>
+
                   <div>
                     <input type="checkbox" id="projectManagement" name="skills" value="Project Management">
                     <label for="projectManagement">Project Management</label>
+                    <br>
+
                   </div>
                   <div>
                     <input type="checkbox" id="dataVisualization" name="skills" value="Data Visualization">
-                    <label for="dataVisualization">Data Visualization</label>
+                    <label for="dataScience">Data Science</label>
+                    <br>
+
                   </div>
                   
+                    <!-- number input -->
+
                   <label for="experience">Years of Experience:</label>
                   <input type="number" id="experience" name="experience" min="0" max="50">
-                  
+                  <br>
+
+                    <!-- option input -->
+
                   <label>Preferred Contact Method:</label>
                   <input type="radio" id="contactEmail" name="contactMethod" value="Email" checked>
                   <label for="contactEmail">Email</label>
                   <input type="radio" id="contactPhone" name="contactMethod" value="Phone">
                   <label for="contactPhone">Phone</label>
-                  
+
+                  <br>
+
+                   <!-- text input -->
                   <label for="message">Message:</label>
                   <textarea id="message" name="message" rows="4"></textarea>
-                  
-                  <button type="button" id="submitBtn">Submit</button>
-                  <button type="reset">Clear</button>
+                  <br>
+
+
+
+                    <!-- store the input data into the local storage -->
+                    <button class="button" id="submitBtn">Submit</button>
+                   
+                    <!-- reset all input fields-->
+                    <button class="reset">Clear</button>
+              
                 </form>
+
               </div>
     
            
