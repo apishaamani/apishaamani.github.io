@@ -23,7 +23,7 @@ function onNavMouseOut(element) {
 }
 
 function mOver(some_tag) {
-   
+    some_tag.innerHTML = "Welcome!";
     some_tag.style.color = "blue";
     }
 function mOut(element) {
