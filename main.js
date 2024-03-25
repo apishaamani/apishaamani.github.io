@@ -98,6 +98,7 @@ function myFunction() {
       case 'protanopia':
         document.body.style.backgroundColor = '#f9f2dc'; // Cream background
         document.body.style.color = '#000000'; // Black text
+        
         break;
       case 'deuteranopia':
         document.body.style.backgroundColor = '#e0f0d4'; // Pale green background

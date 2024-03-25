@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apishaa Manisekaran</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="main.js" defer></script>
+
+    
+</head>
+<body>
+    <header>
+        <h1>Apishaa Manisekaran</h1>
+
+        <div class="topnav">
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn">Contact</button>
+                    <div id="myDropdown" class="dropdown-content">
+                      <a href="#linkedin">LinkedIn</a>
+                      <a href="#personal">Personal Contact</a>
+                    </div>
+                  </div>
+
+                  
+               
+            </nav>
+           
+        </div>
+    </header>
+    <br></br>
+
+</div>
+
+<form>
+    <div class="containerForm">
+            <!-- form title -->
+            <h2>Contact Me</h2>
+
+        <form id="feedbackForm">
+
+            <!-- name input -->
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+          <br>
+
+
+            <!-- email input -->
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+          <br>
+
+
+            <!-- dropdown for inquiry type -->
+          <label for="inquiryType">So, you're contacting me about...</label>
+          <select id="inquiryType" name="inquiryType">
+
+
+           <!-- dropdown options -->
+           <option value="employment">Work opportunities</option>
+            <option value="freelance">Student group initiatives</option>
+            <option value="general">Just for fun</option>
+          </select>
+          <br>
+
+         <!-- checkbox question -->
+
+          <label>Contacting me based on my:</label>
+          <div>
+
+             <!-- checkbox options -->
+            <input type="checkbox" id="dataAnalysis" name="skills" value="Data Analysis">
+            <label for="businessAnalysis">Design projects</label>
+          </div>
+
+          <div>
+            <input type="checkbox" id="projectManagement" name="skills" value="Project Management">
+            <label for="projectManagement">Data Projects</label>
+            <br>
+
+          </div>
+          <div>
+            <input type="checkbox" id="dataVisualization" name="skills" value="Data Visualization">
+            <label for="dataScience">Coding projects</label>
+            <br>
+
+          </div>
+          
+            <!-- number input -->
+
+          <label for="experience">Years of Experience:</label>
+          <input type="number" id="experience" name="experience" min="0" max="50">
+          <br>
+
+            <!-- option input -->
+
+          <label>Preferred Contact Method:</label>
+          <input type="radio" id="contactEmail" name="contactMethod" value="Email" checked>
+          <label for="contactEmail">Email</label>
+          <input type="radio" id="contactPhone" name="contactMethod" value="Phone">
+          <label for="contactPhone">Phone</label>
+
+          <br>
+
+           <!-- text input -->
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4"></textarea>
+          <br>
+
+
+
+            <!-- store the input data into the local storage -->
+            <button class="button" id="submitBtn">Submit</button>
+           
+            <!-- reset all input fields-->
+            <button class="reset">Clear</button>
+      
+        </form>
+
+      </div>
