@@ -42,8 +42,10 @@ a {
     position: absolute;
     line-height: 1.5;
     display: inline-block;
-    width: 500px;
+    width: 600px;
     word-wrap: break-word;
+    bottom: 35%;
+    right: 44%;
 
 }
 
