@@ -1,22 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
+  
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Apishaa Manisekaran</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <script src="main.js" defer></script>
 
     
 </head>
 <body>
+
     <header>
         <h1>Apishaa Manisekaran</h1>
-
         <div class="topnav">
             <nav>
                 <a href="index.html">Home</a>
-                <a href="about.html">About</a>
+                <a href="about.html">My Experience</a>
+                <a href="about.html">Connect with Me</a>
+               <!--
+
+               
                 <div class="dropdown">
                     <button onclick="myFunction()" class="dropbtn">Contact</button>
                     <div id="myDropdown" class="dropdown-content">
@@ -26,118 +32,90 @@
                   </div>
 
                   
-               
+               -->
             </nav>
            
         </div>
     </header>
-    <br></br>
+
+<div class="wrapper">
+
+    <!-- Open and Close Btn -->
+    <input type="checkbox" name="openCloseBtn" id="openCloseBtn">
+    <label for="openCloseBtn" id="openCloseBtnLabel" >&times;</label>
+
+    <div class="sidebar">
+       
+
+        <hr>
+
+        <!-- Menu One -->
+        
+              <!-- accessibility -->
+            <div class="container">
+            <label>Click to open or close </label>
+              <p>Accessibility</p>
+            
+            <p>Change the font size:</p>
+              <select id="fontSize">
+                <option value="0.75rem">Small</option>
+                <option value="1rem">Medium</option>
+                <option value="2rem">Large</option>
+              </select>
+            <hr>
+              <p>Change the colour scheme for colour blindness:</p>
+              <select id="colorScheme">
+                <option value="normal">Normal</option>
+                <option value="protanopia">Protanopia</option>
+                <option value="deuteranopia">Deuteranopia</option>
+                <option value="tritanopia">Tritanopia</option>
+              </select>
+            
+            </div>
+
+        <hr>
+ 
+       
+
+       
+
+    </div>
+
+
+   <!-- <br></br> -->
+
+    <!--
     <div onmouseover="mOver(this)" onmouseout="mOut(this)"
     style="width:120px;height:20px;padding:40px;">Hello!</div>
+    -->
     <!-- “this” refers to the div -->
 
+    
     <section>
         <!-- a. Prompt for User Name -->
+        <!--
         <button onclick="promptForName()">Enter Your Name</button>
         <p id="welcome-message">Welcome!</p>
+        -->
 
-    </section>
+    </section>  
     
     <section>  
         <!-- Navigation menu -->
 
         <!-- Clickable image -->
-        <img id="profile-image" src="apishaa.JPG" alt="Full body of Apishaa Manisekaran wearing a black leather jacket, a black top, sunglass, brown trousers, loafers and a purse" onclick="enlargeImage() "width= 300px>
-    
+        <!-- 
+        <img id="profile-image" align="right" src="apishaa.JPG" alt="Full body of Apishaa Manisekaran wearing a black leather jacket, a black top, sunglass, brown trousers, loafers and a purse" onclick="enlargeImage() "width= 500px>
+        -->
         <!-- Output for user's name -->
+         <!--
         <div id="output"></div>
-
-    <section>
-        <h2>Education</h2>
-        <ul>
-            <li><strong>High School:</strong> Middlefield Collegiate Institute (2016-2020)</li>
-            <li><strong>University:</strong> Toronto Metropolitan University (2020-Present)</li>
-        </ul>
-    </section>
-
-    <section>
-        <h2>Program Details</h2>
-        <p>
-            I am currently pursuing a Bachelor's degree in Business Technology Management at Toronto Metropolitan University. The program has given me insight into various sectors of of the IT industry such as Project Management, Business Analyses and Database Management.
-        </p>
-        <p>
-            One course that I found particularly useful was "Data and Information Management". This course taught me about the basics of SQL queries and database systems.
-        </p>
-        <hr>
-    </section>
-
-    <section>
-        <h2>Educational Awards</h2>
-        <p>
-            I was honored to receive the "Killin Family Award" in 2023 for my leadership and involvement at TRSM.
-        </p>
-    </section>
-
-    <section>
-        <h2>Extra-Curricular Activities</h2>
-      
-    </section>    
-
-        <blockquote>
-            <p>Here are some of the student groups I've been part of:</p>
-        </blockquote>
-        <ol>
-            <li>Women in Information Technology Management (WITM)</li>
-            <li>Panther Pikture Studios</li>
-            <li>Ted Rogers Ambassador Program</li>
-        </ol>
-        <div class="links">
-            
-            <p><a href="https://www.linkedin.com/in/apishaamanisekaran/" target="_blank">LinkedIn profile</a></p>
-           
-            <p>Check out my LinkedIn profile.</p>       
-
-        </div>
-        <div class="text">
-
-            <p><a href="https://gracedavid54.wixsite.com/fueledup" target="_blank">E-commerce website</a></p>
-
-            <p>Check out my e-commerce website.</p>
-        
-        </div>
-                <!-- accessibility -->
-              <div class="container">
-                <p>Accessibility</p>
-              
-                <label for="fontSize">Change Font Size:</label>
-                <select id="fontSize">
-                  <option value="0.75rem">Small</option>
-                  <option value="1rem">Medium</option>
-                  <option value="2rem">Large</option>
-                </select>
-              
-                <label for="colorScheme">Change Color Scheme for Color Blindness:</label>
-                <select id="colorScheme">
-                  <option value="normal">Normal</option>
-                  <option value="protanopia">Protanopia</option>
-                  <option value="deuteranopia">Deuteranopia</option>
-                  <option value="tritanopia">Tritanopia</option>
-                </select>
-              
-              </div>
-             
-             
-
-
-
-
-
-        <br>
-        <hr>
-        <br>
-    <footer>
-        <p>apishaa &copy;</p>
-    </footer>
+        -->
+       
+    
 
 </body>
+<footer>
+    <p>All Rights Reserved apishaa &copy;</p>
+</footer>
 </html>

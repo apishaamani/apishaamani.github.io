@@ -85,6 +85,8 @@ function myFunction() {
   document.getElementById('fontSize').addEventListener('change', function() {
     var fontSize = this.value;
     document.body.style.fontSize = fontSize;
+    document.h1.style.fontSize = fontSize;
+
   });
 
   // Function to change color scheme
@@ -92,7 +94,7 @@ function myFunction() {
     var colorScheme = this.value;
     switch(colorScheme) {
       case 'normal':
-        document.body.style.backgroundColor = '#ecf8fa'; // blue background
+        document.body.style.backgroundImage = url("sidebar.png") // blue background
         document.body.style.color = '#000000'; // Black text
         break;
       case 'protanopia':
