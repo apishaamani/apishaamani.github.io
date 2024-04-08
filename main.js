@@ -85,7 +85,7 @@ function myFunction() {
   document.getElementById('fontSize').addEventListener('change', function() {
     var fontSize = this.value;
     document.body.style.fontSize = fontSize;
-    document.h1.style.fontSize = fontSize;
+ 
 
   });
 

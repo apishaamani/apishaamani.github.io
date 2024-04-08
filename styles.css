@@ -16,13 +16,14 @@ h1 {
 }
 
 h2 {
-    font-family: Nugo Sans;
+    font-family: Bakso Sapi;
     font-size: 20pt; /* Slightly smaller font size for H2 */
     color: #555; /* Dark gray color for H2 */
 }
 
 p {
     font-size: 12pt; /* Font size for paragraphs */
+    font-family: Nugo Sans;
     color: #666; /* Color for paragraphs */
     line-height: 1.5;
 }
@@ -33,6 +34,21 @@ a {
     font-weight: bold;
 }
 
+
+
+
+.intro{
+    text-align: center;
+    position: absolute;
+    line-height: 1.5;
+    display: inline-block;
+    width: 500px;
+    word-wrap: break-word;
+
+}
+
+
+
 .topnav {
     background-color: transparent;
     font-family: Nugo Sans;
@@ -42,6 +58,7 @@ a {
 
     
   }
+
   
   /* Style the links inside the navigation bar */
   .topnav a {
@@ -113,8 +130,8 @@ a {
     display: block;
   }
   
-  /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {background-image: url("")}
+   /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-image: url}
   
   /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
   .show {display:block;}
@@ -147,9 +164,6 @@ a {
     transition: bottom 0.5s;
 }
 
-#container{
-left: 100px;
-}
 
 
 
@@ -245,7 +259,7 @@ hr {
 /* Footer Area */
 footer {
     display: flex;
-    align-items: cet;
+    align-items: center;
     justify-content: right;
     height: 50px;
     width: 100%;
