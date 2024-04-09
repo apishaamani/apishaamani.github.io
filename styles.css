@@ -7,7 +7,9 @@ body {
     background-position: center;
     background-size: cover;
     color: #333; /* Foreground color other than black */
+    
 }
+
 
 h1 {
     font-family: Bakso Sapi;
@@ -263,11 +265,10 @@ footer {
     display: flex;
     align-items: center;
     justify-content: right;
-    height: 50px;
     width: 100%;
     background-color: transparent;
     position: absolute;
-    bottom: -120px;
+    bottom: -40px;
     right: 20px;
 }
 /* Content Area */

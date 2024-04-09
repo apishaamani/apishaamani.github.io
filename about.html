@@ -1,27 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
+  
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Apishaa Manisekaran</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="styles_about.css">
     <script src="main.js" defer></script>
 
     
 </head>
 <body>
-    <header>
-        <h1>Apishaa Manisekaran</h1>
 
+    <header>
+        <h1>Apishaa Manisekaran</h1> 
         <div class="topnav">
             <nav>
                 <a href="index.html">Home</a>
-                <a href="about.html">About</a>
-                <div class="dropdown">
-                    <button onclick="myFunction()" class="dropbtn">Contact</button>
-                    <div id="myDropdown" class="dropdown-content">
-                      <a href="#linkedin">LinkedIn</a>
-                      <a href="#personal">Personal Contact</a>
+                <a href="about.html">My Experience</a>
+                <a href="personal.html">Connect with Me</a>
                     </div>
                   </div>
 
@@ -32,170 +30,37 @@
         </div>
     </header>
     <br></br>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+
+
 
 </div>
 
-<form>
-    <div class="containerForm">
-            <!-- form title -->
-            <h2>Contact Me</h2>
-
-        <form id="feedbackForm">
-
-            <!-- name input -->
-          <label for="name">Name:</label>
-          <input type="text" id="name" name="name" required>
-          <br>
+  <section>
+    <div class="intro">
 
 
-            <!-- email input -->
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email" required>
-          <br>
-
-
-            <!-- dropdown for inquiry type -->
-          <label for="inquiryType">So, you're contacting me about...</label>
-          <select id="inquiryType" name="inquiryType">
-
-
-           <!-- dropdown options -->
-           <option value="employment">Work opportunities</option>
-            <option value="freelance">Student group initiatives</option>
-            <option value="general">Just for fun</option>
-          </select>
-          <br>
-
-         <!-- checkbox question -->
-
-          <label>Contacting me based on my:</label>
-          <div>
-
-             <!-- checkbox options -->
-            <input type="checkbox" id="dataAnalysis" name="skills" value="Data Analysis">
-            <label for="businessAnalysis">Design projects</label>
-          </div>
-
-          <div>
-            <input type="checkbox" id="projectManagement" name="skills" value="Project Management">
-            <label for="projectManagement">Data Projects</label>
-            <br>
-
-          </div>
-          <div>
-            <input type="checkbox" id="dataVisualization" name="skills" value="Data Visualization">
-            <label for="dataScience">Coding projects</label>
-            <br>
-
-          </div>
-          
-            <!-- number input -->
-
-          <label for="experience">Years of Experience:</label>
-          <input type="number" id="experience" name="experience" min="0" max="50">
-          <br>
-
-            <!-- option input -->
-
-          <label>Preferred Contact Method:</label>
-          <input type="radio" id="contactEmail" name="contactMethod" value="Email" checked>
-          <label for="contactEmail">Email</label>
-          <input type="radio" id="contactPhone" name="contactMethod" value="Phone">
-          <label for="contactPhone">Phone</label>
-
-          <br>
-
-           <!-- text input -->
-          <label for="message">Message:</label>
-          <textarea id="message" name="message" rows="4"></textarea>
-          <br>
-
-
-
-            <!-- store the input data into the local storage -->
-            <button class="button" id="submitBtn">Submit</button>
-           
-            <!-- reset all input fields-->
-            <button class="reset">Clear</button>
-      
-        </form>
-
-      </div>
-
+      <h2>Check out my portfolio here!<a href="https://youthful-ziconium-35e.notion.site/Hi-I-m-Apishaa-15b575e77fa94dd786f1481148da9b4b" target="_blank"><hr>Apishaa's Portfolio</a></h2>
+      <div class="intro">
+        <br></br>
        
-    <section>
-      <h2>Education</h2>
-      <ul>
-          <li><strong>High School:</strong> Middlefield Collegiate Institute (2016-2020)</li>
-          <li><strong>University:</strong> Toronto Metropolitan University (2020-Present)</li>
-      </ul>
-  </section>
-
-  <section>
-      <h2>Program Details</h2>
-      <p>
-          I am currently pursuing a Bachelor's degree in Business Technology Management at Toronto Metropolitan University. The program has given me insight into various sectors of of the IT industry such as Project Management, Business Analyses and Database Management.
-      </p>
-      <p>
-          One course that I found particularly useful was "Data and Information Management". This course taught me about the basics of SQL queries and database systems.
-      </p>
-      <hr>
-  </section>
-
-  <section>
-      <h2>Educational Awards</h2>
-      <p>
-          I was honored to receive the "Killin Family Award" in 2023 for my leadership and involvement at TRSM.
-      </p>
-  </section>
-
-  <section>
-      <h2>Extra-Curricular Activities</h2>
-    
-  </section>    
-
-      <blockquote>
-          <p>Here are some of the student groups I've been part of:</p>
-      </blockquote>
-      <ol>
-          <li>Women in Information Technology Management (WITM)</li>
-          <li>Panther Pikture Studios</li>
-          <li>Ted Rogers Ambassador Program</li>
-      </ol>
-      <div class="links">
-          
-          <p><a href="https://www.linkedin.com/in/apishaamanisekaran/" target="_blank">LinkedIn profile</a></p>
-         
-          <p>Check out my LinkedIn profile.</p>       
+     
 
       </div>
-      <div class="text">
+    </div>
+  </section>
 
-          <p><a href="https://gracedavid54.wixsite.com/fueledup" target="_blank">E-commerce website</a></p>
-
-          <p>Check out my e-commerce website.</p>
-      
       </div>
-              <!-- accessibility -->
-            <div class="container">
-              <p>Accessibility</p>
-            
-              <label for="fontSize">Change Font Size:</label>
-              <select id="fontSize">
-                <option value="0.75rem">Small</option>
-                <option value="1rem">Medium</option>
-                <option value="2rem">Large</option>
-              </select>
-            
-              <label for="colorScheme">Change Color Scheme for Color Blindness:</label>
-              <select id="colorScheme">
-                <option value="normal">Normal</option>
-                <option value="protanopia">Protanopia</option>
-                <option value="deuteranopia">Deuteranopia</option>
-                <option value="tritanopia">Tritanopia</option>
-              </select>
-            
-            </div>
+
+      </div>
+             
            
            
 
@@ -206,3 +71,9 @@
       <br>
       <hr>
       <br>
+
+      <footer>
+        <p>All Rights Reserved apishaa &copy;</p>
+    </footer>
+    </body>
+</html>

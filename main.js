@@ -94,7 +94,7 @@ function myFunction() {
     var colorScheme = this.value;
     switch(colorScheme) {
       case 'normal':
-        document.body.style.background = url("sidebar.png") // blue background
+        document.body.style.backgroundColor = '#ffffff' // blue background
         document.body.style.color = '#000000'; // Black text
         break;
       case 'protanopia':

@@ -1,7 +1,12 @@
 body {
     font-family: Arial, sans-serif;
     font-size: 12pt;
-    background-color: #fbf2f8; /* Background color other than white */
+    background-image: url('back2.png'); /* Background color other than white */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
     color: #333; /* Foreground color other than black */
 }
 
@@ -12,7 +17,7 @@ h1 {
 }
 
 h2 {
-    font-family: Nugo Sans;
+    font-family: Bakso Sapi;
     font-size: 20pt; /* Slightly smaller font size for H2 */
     color: #555; /* Dark gray color for H2 */
 }
@@ -30,6 +35,8 @@ a {
 }
 
 
+
+ 
 
 
 a:visited {
@@ -73,39 +80,41 @@ a:active {
 
 
 
-  /* Add a black background color to the top navigation */
 .topnav {
-    background-color: transparent;
-    
-
-    
-
-    
-  }
+  background-color: transparent;
+  font-family: Nugo Sans;
   
-  /* Style the links inside the navigation bar */
-  .topnav a {
-    float: right;
-    color: #333;
-    text-align: center;
-    padding: 16px 16px;
-    text-decoration: none;
-    font-size: 16px;
-  }
-  
-  /* Change the color of links on hover */
-  .topnav a:hover {
-    background-color: #e291c0;
-    color: black;
-    padding: 16px 16px;
 
-  }
   
-  /* Add a color to the active/current link */
-  .topnav a.active {
-    background-color: #04AA6D;
-    color: white;
-  }
+
+  
+}
+
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #333;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #e291c0;
+  color: black;
+  padding: 16px 16px;
+
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
 
 
 
@@ -163,9 +172,9 @@ a:active {
 
   /* submit button theme */
   .button {
-    background-color: #e291c0;
+    background-color: black;
     border: 10px rgb(7, 7, 7);
-    font-family: Pulang;
+    font-family: Nugo Sans;
     font-size: 16px;
     cursor: pointer;
     color: white;
@@ -173,9 +182,9 @@ a:active {
 
   /* reset button theme */
   .reset {
-    background-color: #e291c0;
+    background-color: black;
     border: 10px rgb(7, 7, 7);
-    font-family: Pulang;
+    font-family: Nugo Sans;
     font-size: 16px;
     cursor: pointer;
     color: white;
@@ -184,13 +193,15 @@ a:active {
 
   /* for the form layout */
   .containerForm{
-    background-color: #e7ccdc;
+    background-color: #f096b7;
     font-family: Nugo Sans;
     border: 10px rgb(7, 7, 7);
     font-size: 16px;
     cursor: pointer;
     color: black;
-    width: 300px;
+    width: 250px;
+    margin: auto;
+    
 
   }
 
@@ -203,5 +214,15 @@ a:active {
     font: 13px Nugo Sans;
   }
 
-
-  
+/* Footer Area */
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  height: 50px;
+  width: 100%;
+  background-color: transparent;
+  position: absolute;
+  bottom: -30px;
+  right: 20px;
+}
